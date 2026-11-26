@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 黑五必买高性价比清单 & Agent 自动省钱导航 | moose-lab</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans SC', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #09090b;
+      color: #f4f4f5;
+      font-family: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+    }
+    .glass-card {
+      background: linear-gradient(180deg, rgba(24, 24, 27, 0.92) 0%, rgba(18, 18, 22, 0.96) 100%);
+      border: 1px solid rgba(63, 63, 70, 0.65);
+    }
+    .glass-card:hover {
+      border-color: rgba(245, 158, 11, 0.55);
+      box-shadow: 0 10px 30px -12px rgba(245, 158, 11, 0.16);
+    }
+    .hero-glow {
+      background: radial-gradient(ellipse 70% 50% at 50% -10%, rgba(245, 158, 11, 0.18), transparent 70%),
+                  radial-gradient(ellipse 50% 40% at 85% 15%, rgba(99, 102, 241, 0.14), transparent 70%);
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="min-h-screen antialiased selection:bg-amber-500/30 selection:text-amber-200">
+  <!-- Top Sticky Header -->
+  <header class="sticky top-0 z-40 border-b border-zinc-800/80 bg-zinc-950/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+      <div class="flex items-center gap-2.5 min-w-0">
+        <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-orange-600 text-zinc-950 font-extrabold text-sm shadow-lg shadow-amber-500/20">
+          BF
+        </div>
+        <div class="min-w-0">
+          <div class="flex items-center gap-2">
+            <span class="truncate text-sm sm:text-base font-bold tracking-tight text-white">moose-lab 黑五 2026</span>
+            <span class="hidden sm:inline-flex items-center gap-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[11px] font-semibold text-emerald-400 ring-1 ring-emerald-500/30">
+              <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              LIVE
+            </span>
+          </div>
+          <p class="truncate text-[11px] text-zinc-400">按用途与性价比严选 · 直达购买页 + Agent 深入口省钱 Skill</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 shrink-0">
+        <button id="header-bookmark-btn" type="button" class="inline-flex items-center gap-1.5 rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-1.5 text-xs font-medium text-zinc-200 hover:border-amber-500/50 hover:text-amber-300 transition">
+          <svg class="h-3.5 w-3.5 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+          </svg>
+          <span>清单</span>
+          <span id="bookmark-count" class="rounded bg-amber-500/20 px-1.5 py-0.5 text-[11px] font-bold text-amber-300">0</span>
+        </button>
+        <a href="https://github.com/moose-lab" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-3 py-1.5 text-xs font-semibold text-zinc-950 hover:bg-amber-400 transition">
+          <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+          <span class="hidden sm:inline">moose-lab</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-glow border-b border-zinc-800/70">
+    <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14">
+      <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+        <div class="max-w-2xl">
+          <div class="mb-3 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-xs font-medium text-amber-300">
+            <span>2026 Black Friday · 11月26日实测更新</span>
+            <span class="text-zinc-600">|</span>
+            <span>全部直达官方/Amazon购买页</span>
+          </div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+            2026 黑五必买清单
+            <span class="block bg-gradient-to-r from-amber-300 via-orange-400 to-indigo-400 bg-clip-text text-transparent">
+              按用途严选 · 让 Agent 帮你自动买到最低价
+            </span>
+          </h1>
+          <p class="mt-4 text-sm sm:text-base text-zinc-400 leading-relaxed">
+            拒绝套路与凑单广告。精选 13 款 2026 黑五真史低硬件、开发工具、安全服务与 AI 创作软件；针对需要切换周期、填码或避坑 App Store 抽成的深入口商品，配套开源 <code class="rounded bg-zinc-800 px-1.5 py-0.5 text-xs text-indigo-300">black-friday-deal-navigator</code> Agent Skill，一键直达最低价结账页。
+          </p>
+        </div>
+
+        <!-- KPI Stats -->
+        <div class="grid grid-cols-3 gap-3 sm:gap-4 shrink-0">
+          <div class="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-3.5 sm:p-4 text-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-white">13</div>
+            <div class="mt-1 text-[11px] sm:text-xs text-zinc-400">实测直达好价</div>
+          </div>
+          <div class="rounded-2xl border border-indigo-500/30 bg-indigo-500/10 p-3.5 sm:p-4 text-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-indigo-300">8</div>
+            <div class="mt-1 text-[11px] sm:text-xs text-indigo-200/80">深入口 Skill 自动化</div>
+          </div>
+          <div class="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-3.5 sm:p-4 text-center">
+            <div class="text-2xl sm:text-3xl font-extrabold text-emerald-300">88%</div>
+            <div class="mt-1 text-[11px] sm:text-xs text-emerald-200/80">最高直降幅度</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Primary View Tabs -->
+      <nav class="mt-8 flex items-center gap-2 overflow-x-auto no-scrollbar pb-1" aria-label="主视图切换">
+        <button type="button" data-tab="deals" class="tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition">
+          🔥 必买清单 (13)
+        </button>
+        <button type="button" data-tab="matrix" class="tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition">
+          📊 性价比横评表
+        </button>
+        <button type="button" data-tab="skill" class="tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition">
+          🤖 Agent 自动省钱 Skill
+        </button>
+        <button type="button" data-tab="xcopy" class="tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition">
+          𝕏 爆款引流文案
+        </button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+
+    <!-- TAB 1: DEALS GRID -->
+    <section id="view-deals" class="tab-panel space-y-6">
+      <!-- Filter & Control Bar -->
+      <div class="flex flex-col gap-3 rounded-2xl border border-zinc-800/80 bg-zinc-900/60 p-4">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <!-- Category Pills -->
+          <div id="category-filters" class="flex flex-wrap items-center gap-2">
+            <button type="button" data-cat="all" class="cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition">全部用途</button>
+            <button type="button" data-cat="dev" class="cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition">💻 开发者与建站</button>
+            <button type="button" data-cat="security" class="cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition">🛡️ 安全与隐私</button>
+            <button type="button" data-cat="creator" class="cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition">🎬 影音与 AI</button>
+            <button type="button" data-cat="hardware" class="cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition">🎧 旗舰数码与家居</button>
+          </div>
+
+          <!-- Search + Sort -->
+          <div class="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+            <div class="relative flex-1 sm:w-56">
+              <input id="search-input" type="text" placeholder="搜产品、用途或优惠码..." class="w-full rounded-lg border border-zinc-700/80 bg-zinc-950 pl-8 pr-3 py-1.5 text-xs text-zinc-100 placeholder-zinc-500 focus:border-amber-500 focus:outline-none" />
+              <svg class="pointer-events-none absolute left-2.5 top-2 h-3.5 w-3.5 text-zinc-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+              </svg>
+            </div>
+            <select id="sort-select" aria-label="排序方式" class="rounded-lg border border-zinc-700/80 bg-zinc-950 px-2.5 py-1.5 text-xs text-zinc-200 focus:border-amber-500 focus:outline-none">
+              <option value="value">按性价比综合排序</option>
+              <option value="discount">按折扣力度 (高→低)</option>
+              <option value="savings">按立省金额 (高→低)</option>
+              <option value="price_asc">按入手价 (低→高)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Secondary Filter Row: Entry Type + Bookmark Filter -->
+        <div class="flex flex-wrap items-center justify-between gap-2 border-t border-zinc-800/80 pt-3">
+          <div id="entry-filters" class="flex flex-wrap items-center gap-2">
+            <span class="text-[11px] font-medium text-zinc-500">购买入口：</span>
+            <button type="button" data-entry="all" class="entry-pill rounded-md px-2.5 py-1 text-[11px] font-medium transition">全部</button>
+            <button type="button" data-entry="deep" class="entry-pill rounded-md px-2.5 py-1 text-[11px] font-medium transition">🤖 深入口省钱 (支持 Agent Skill)</button>
+            <button type="button" data-entry="direct" class="entry-pill rounded-md px-2.5 py-1 text-[11px] font-medium transition">⚡ 一键直达史低</button>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-zinc-400">
+            <span id="result-count">共显示 13 款产品</span>
+            <button id="toggle-saved-only" type="button" class="rounded-md border border-zinc-700/80 bg-zinc-950 px-2.5 py-1 text-[11px] font-medium text-zinc-300 hover:border-amber-500/60 transition">
+              仅看已收藏
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards Container -->
+      <div id="deals-grid" class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3"></div>
+    </section>
+
+    <!-- TAB 2: VALUE COMPARISON MATRIX -->
+    <section id="view-matrix" class="tab-panel hidden space-y-5">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div>
+          <h2 class="text-xl font-bold text-white">2026 黑五全品类性价比横评表</h2>
+          <p class="text-xs text-zinc-400 mt-1">所有价格与优惠码均基于 2026 年 11 月官方及主流渠道实测，点击「直达购买」直接跳转商品/定价页。</p>
+        </div>
+        <button id="export-md-btn" type="button" class="inline-flex items-center gap-1.5 self-start rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-1.5 text-xs font-medium text-zinc-200 hover:border-amber-500/50 hover:text-amber-300 transition">
+          📋 复制 Markdown 表格 (发 GitHub / 博客)
+        </button>
+      </div>
+
+      <div class="overflow-x-auto rounded-2xl border border-zinc-800 bg-zinc-900/50">
+        <table class="w-full text-left border-collapse text-xs sm:text-sm">
+          <thead>
+            <tr class="border-b border-zinc-800 bg-zinc-900/90 text-zinc-400 text-xs uppercase tracking-wider">
+              <th class="py-3.5 px-4 font-semibold">产品与用途</th>
+              <th class="py-3.5 px-3 font-semibold">常规价</th>
+              <th class="py-3.5 px-3 font-semibold">黑五到手价</th>
+              <th class="py-3.5 px-3 font-semibold">折扣 / 优惠码</th>
+              <th class="py-3.5 px-3 font-semibold">入口类型</th>
+              <th class="py-3.5 px-3 font-semibold">性价比</th>
+              <th class="py-3.5 px-4 font-semibold text-right">购买页</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-tbody" class="divide-y divide-zinc-800/70"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TAB 3: AGENT SKILL -->
+    <section id="view-skill" class="tab-panel hidden space-y-6">
+      <div class="rounded-2xl border border-indigo-500/30 bg-gradient-to-br from-indigo-950/50 via-zinc-900/90 to-zinc-950 p-6">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+          <div class="max-w-2xl">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/20 px-3 py-1 text-xs font-semibold text-indigo-300 ring-1 ring-indigo-500/40">
+              Agent Skill · black-friday-deal-navigator
+            </span>
+            <h2 class="mt-3 text-2xl font-extrabold text-white">让你的 AI Agent 自动走深入口，锁定黑五最低价</h2>
+            <p class="mt-2 text-sm text-zinc-300 leading-relaxed">
+              很多黑五神价藏得很深：比如 JetBrains 必须切个人版+年付再填码 <code class="text-amber-300">BF2026</code>，1Password 走 App Store 没有任何折扣必须网页直购，Hostinger 需切 48 个月并叠码 <code class="text-amber-300">COUPONSPAGE</code>。加载仓库里的 Skill 后，直接告诉 Agent「帮我用最低价买 JetBrains / Hostinger / NordVPN」，它会自动跳转正确入口、切换周期、填入最高折扣码并停在确认付款前！
+            </p>
+          </div>
+          <div class="flex flex-col gap-2 shrink-0">
+            <button id="copy-skill-install" type="button" class="rounded-xl bg-indigo-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-indigo-400 transition shadow-lg shadow-indigo-500/20">
+              📋 复制 Skill 加载命令 (moose-lab)
+            </button>
+            <button id="copy-skill-prompt" type="button" class="rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-2.5 text-xs font-semibold text-zinc-200 hover:border-indigo-400 transition">
+              ⚡ 复制 Agent 一键触发测试词
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-5 grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+          <div class="rounded-xl border border-zinc-800 bg-zinc-950/80 p-3.5">
+            <div class="font-bold text-indigo-300">1. 自动避坑错误入口</div>
+            <p class="mt-1 text-zinc-400">强制绕过 App Store/Google Play 抽成页与高价月付页，直达官网黑五专属落地页。</p>
+          </div>
+          <div class="rounded-xl border border-zinc-800 bg-zinc-950/80 p-3.5">
+            <div class="font-bold text-amber-300">2. 自动切周期与叠码</div>
+            <p class="mt-1 text-zinc-400">自动选择最高性价比周期（年付/24个月/48个月）并注入实测有效优惠码，取消默认附加项。</p>
+          </div>
+          <div class="rounded-xl border border-zinc-800 bg-zinc-950/80 p-3.5">
+            <div class="font-bold text-emerald-300">3. 安全停在付款确认前</div>
+            <p class="mt-1 text-zinc-400">自动核对折后总价与续费提醒，绝不擅自扣款，确认最低价后交由用户完成支付。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deep Entry Playbooks List -->
+      <div>
+        <h3 class="text-base font-bold text-white mb-3">Skill 内置 8 大深入口自动化省钱剧本 (Playbooks)</h3>
+        <div id="skill-playbooks" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: X (TWITTER) VIRAL COPY -->
+    <section id="view-xcopy" class="tab-panel hidden space-y-6">
+      <div>
+        <h2 class="text-xl font-bold text-white">𝕏 (Twitter) 黑五引流爆款文案库</h2>
+        <p class="text-xs text-zinc-400 mt-1">专为黑五流量高峰设计，已自动嵌入 <code class="text-amber-300">https://github.com/moose-lab</code> 仓库与直达卖点，点击即可一键复制发推。</p>
+      </div>
+      <div id="xcopy-container" class="grid grid-cols-1 lg:grid-cols-2 gap-5"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-12 border-t border-zinc-800/80 bg-zinc-950 py-8">
+    <div class="mx-auto flex max-w-7xl flex-col sm:flex-row items-center justify-between gap-4 px-4 sm:px-6 text-xs text-zinc-500">
+      <div>
+        开源维护于 <a href="https://github.com/moose-lab" target="_blank" rel="noopener noreferrer" class="text-zinc-300 hover:text-amber-400 underline underline-offset-2">github.com/moose-lab</a> · 2026 黑五必买清单 & Agent Skill
+      </div>
+      <div>
+        价格与库存随黑五促销实时波动，下单前请以官方/Amazon 结账页为准。
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="pointer-events-none fixed bottom-5 right-5 z-50 translate-y-4 opacity-0 transition-all duration-200">
+    <div class="flex items-center gap-2 rounded-xl border border-amber-500/40 bg-zinc-900/95 px-4 py-2.5 text-xs font-semibold text-amber-200 shadow-2xl backdrop-blur">
+      <span id="toast-msg">已复制到剪贴板</span>
+    </div>
+  </div>
+
+  <script>
+    const DEALS = [
+      {
+        id: 'airpods-pro-3',
+        name: 'Apple AirPods Pro 3',
+        category: 'hardware',
+        categoryLabel: '旗舰数码与家居',
+        useCase: '通勤降噪 / iOS 生态 / 运动心率监测',
+        origPrice: '$249',
+        dealPrice: '$149',
+        priceNum: 149,
+        discountPct: 40,
+        savingsNum: 100,
+        savingsText: '立省 $100 (部分时段低至 $141)',
+        valueTier: 'S级神价',
+        valueScore: 99,
+        code: '',
+        deadline: '2026-11-30',
+        entryType: 'direct',
+        buyUrl: 'https://www.amazon.com/dp/B0FQFB8FMG',
+        merchant: 'Amazon 直达',
+        highlights: '降噪能力较上代提升2倍，新增心率监测与实时翻译，赠最高3个月 Apple 服务试用。',
+        agentSteps: []
+      },
+      {
+        id: 'jetbrains',
+        name: 'JetBrains All Products Pack / IDEs',
+        category: 'dev',
+        categoryLabel: '开发者与建站',
+        useCase: '全栈开发 / AI 编程 (含 Air & 10+ IDE)',
+        origPrice: '$299/年',
+        dealPrice: '~$179.40/年',
+        priceNum: 179.4,
+        discountPct: 40,
+        savingsNum: 119.6,
+        savingsText: '首年立省 ~$120 (可锁2-3年价)',
+        valueTier: 'S级神价',
+        valueScore: 98,
+        code: 'BF2026',
+        deadline: '2026-12-02',
+        entryType: 'deep',
+        buyUrl: 'https://www.jetbrains.com/store/',
+        merchant: 'JetBrains 官方商店',
+        highlights: '个人新订阅或升级 All Products Pack 享 6 折，可叠加连续订阅折扣，支持一次预付锁 2-3 年价。',
+        agentSteps: [
+          '打开 jetbrains.com/store/ 并点击切换至「For Individual Use（个人版）」标签（企业版不参与）',
+          '选择 All Products Pack 或单个 IDE，确认计费周期为「Yearly（年付）」或直接勾选 2-3 年预付锁价',
+          '进入结账页后展开 Promo Code 输入框，自动填入 BF2026 并校验 40% OFF 生效'
+        ]
+      },
+      {
+        id: 'hostinger',
+        name: 'Hostinger Web Hosting & AI 建站',
+        category: 'dev',
+        categoryLabel: '开发者与建站',
+        useCase: '独立开发建站 / 个人博客 / AI 落地页',
+        origPrice: '$585.12/4年',
+        dealPrice: '$1.99/月 ($95.52/4年)',
+        priceNum: 95.52,
+        discountPct: 85,
+        savingsNum: 489.6,
+        savingsText: '4年立省 $489+ (叠码低至 $1.89/月)',
+        valueTier: 'S级神价',
+        valueScore: 97,
+        code: 'COUPONSPAGE',
+        deadline: '2026-12-14',
+        entryType: 'deep',
+        buyUrl: 'https://www.hostinger.com/black-friday',
+        merchant: 'Hostinger 黑五专页',
+        highlights: '48个月锁价 $1.99/月，送首年免费域名与 AI Website Builder；叠加码再降 5% 至 $90.72/4年。',
+        agentSteps: [
+          '进入 hostinger.com/black-friday，选择 Premium ($1.99/月) 或 Unlimited ($2.79/月，含每日备份)',
+          '在结账页将计费周期切换为「48 months」以锁定 85% OFF 最高折扣',
+          '展开「Have a coupon code?」输入 COUPONSPAGE 叠加折上折至 $90.72/4年，确认免费域名已勾选'
+        ]
+      },
+      {
+        id: 'macbook-air-m5',
+        name: 'Apple MacBook Air 15" M5 (16GB/512GB)',
+        category: 'hardware',
+        categoryLabel: '旗舰数码与家居',
+        useCase: '移动办公 / 轻度开发 / 长续航主力机',
+        origPrice: '$1,499',
+        dealPrice: '$1,199',
+        priceNum: 1199,
+        discountPct: 20,
+        savingsNum: 300,
+        savingsText: '直降 $300 (13" M5 同期低至 $999)',
+        valueTier: 'S级神价',
+        valueScore: 97,
+        code: '',
+        deadline: '2026-11-30',
+        entryType: 'direct',
+        buyUrl: 'https://www.amazon.com/dp/B0GR114BV7',
+        merchant: 'Amazon 授权直达',
+        highlights: '2026年夏季涨价后的史低抄底价，15.3寸大屏+18小时续航+双雷电4，享官方1年保修。',
+        agentSteps: []
+      },
+      {
+        id: 'roborock-saros-20',
+        name: 'Roborock Saros 20 旗舰扫拖机器人',
+        category: 'hardware',
+        categoryLabel: '旗舰数码与家居',
+        useCase: '全屋解放双手 / 宠物毛发 / 高门槛越障',
+        origPrice: '$1,599.99',
+        dealPrice: '$989.99',
+        priceNum: 989.99,
+        discountPct: 38,
+        savingsNum: 610,
+        savingsText: '狂降 $610 (首次跌破 $1,000)',
+        valueTier: 'S级神价',
+        valueScore: 96,
+        code: '',
+        deadline: '2026-11-30',
+        entryType: 'direct',
+        buyUrl: 'https://www.amazon.com/dp/B0G64MM1HM',
+        merchant: 'Amazon 直达',
+        highlights: '36,000 Pa 超强吸力 + AdaptiLift 越障底盘 + StarSight 智能避障 + 自动集尘基站。',
+        agentSteps: []
+      },
+      {
+        id: 'nordvpn',
+        name: 'NordVPN (2年方案 + 送3个月)',
+        category: 'security',
+        categoryLabel: '安全与隐私',
+        useCase: '全球高速加密 / 跨区办公 / 防钓鱼',
+        origPrice: '$15.59/月',
+        dealPrice: '$2.99/月起',
+        priceNum: 80.73,
+        discountPct: 78,
+        savingsNum: 302,
+        savingsText: '最高 78% OFF + 额外送 3 个月',
+        valueTier: 'S级神价',
+        valueScore: 96,
+        code: '自动生效',
+        deadline: '2026-12-09',
+        entryType: 'deep',
+        buyUrl: 'https://nordvpn.com/black-friday/',
+        merchant: 'NordVPN 黑五专页',
+        highlights: 'NordLynx 协议支持 10 设备同时在线，2年+3个月折合 $2.99/月起，30天无理由退款。',
+        agentSteps: [
+          '务必通过 nordvpn.com/black-friday/ 专属入口进入（普通定价页常缺赠月）',
+          '切换至「2-year plan」并选择 Basic（纯 VPN 最低价 $2.99/月）或 Plus',
+          '在结账页取消勾选不必要的独立 IP 或云盘附加项，核对总价含 27 个月时长'
+        ]
+      },
+      {
+        id: 'surfshark',
+        name: 'Surfshark VPN / One (2年 + 3个月)',
+        category: 'security',
+        categoryLabel: '安全与隐私',
+        useCase: '无限设备共享 / 家庭隐私 / 广告拦截',
+        origPrice: '$15.45/月',
+        dealPrice: '$2.49/月起',
+        priceNum: 67.23,
+        discountPct: 88,
+        savingsNum: 311,
+        savingsText: '最高 88% OFF + 送 3 个月',
+        valueTier: 'S级神价',
+        valueScore: 96,
+        code: '自动生效',
+        deadline: '2026-12-04',
+        entryType: 'deep',
+        buyUrl: 'https://surfshark.com/black-friday',
+        merchant: 'Surfshark 黑五专页',
+        highlights: '不限设备数量，内置 CleanWeb 广告拦截与 Alternative ID，多设备家庭性价比之王。',
+        agentSteps: [
+          '打开 surfshark.com/black-friday 黑五专页触发 88% OFF 折扣',
+          '选择 24-month 周期，纯 VPN 选 Starter 最低价，需防毒与泄漏监测选 Surfshark One',
+          '检查结账摘要已自动计入 +3 extra months，关闭额外增值包后确认价格'
+        ]
+      },
+      {
+        id: 'sony-xm6',
+        name: 'Sony WH-1000XM6 旗舰降噪耳机',
+        category: 'hardware',
+        categoryLabel: '旗舰数码与家居',
+        useCase: '深度专注 / 差旅降噪 / Hi-Res LDAC 音质',
+        origPrice: '$459.99',
+        dealPrice: '$348.00',
+        priceNum: 348,
+        discountPct: 24,
+        savingsNum: 111.99,
+        savingsText: '直降 $111.99 (官网史低)',
+        valueTier: 'S级神价',
+        valueScore: 95,
+        code: '',
+        deadline: '2026-11-30',
+        entryType: 'direct',
+        buyUrl: 'https://electronics.sony.com/audio/headphones/headband/p/wh1000xm6-b',
+        merchant: 'Sony 官方商店',
+        highlights: '全新 QN3 降噪芯片 + 12 麦克风 + 30小时续航 + 折叠收纳回归 + 免工具可换耳罩。',
+        agentSteps: []
+      },
+      {
+        id: 'davinci',
+        name: 'DaVinci Resolve Studio (终身买断)',
+        category: 'creator',
+        categoryLabel: '影音与 AI',
+        useCase: '4K/8K 视频剪辑 / 电影级调色 / AI 降噪',
+        origPrice: '$295',
+        dealPrice: '~$236 (8折)',
+        priceNum: 236,
+        discountPct: 20,
+        savingsNum: 59,
+        savingsText: '终身买断 20% OFF，告别订阅费',
+        valueTier: 'S级神价',
+        valueScore: 95,
+        code: '官网/授权直降',
+        deadline: '2026-12-01',
+        entryType: 'direct',
+        buyUrl: 'https://www.blackmagicdesign.com/products/davinciresolve/studio',
+        merchant: 'Blackmagic 官网',
+        highlights: '一次买断永久免费升级，解锁 DaVinci Neural Engine AI 音轨分离、AI 降噪与多 GPU 加速。',
+        agentSteps: []
+      },
+      {
+        id: '1password',
+        name: '1Password (个人版 / 5人家庭版)',
+        category: 'security',
+        categoryLabel: '安全与隐私',
+        useCase: '全平台密码管理 / SSH & Git 密钥签名',
+        origPrice: '$3.99/月 ($5.99家庭)',
+        dealPrice: '$2.99/月 ($4.49家庭)',
+        priceNum: 35.88,
+        discountPct: 25,
+        savingsNum: 18,
+        savingsText: '官网直购年付首年 25%-50% OFF',
+        valueTier: 'A+级必入',
+        valueScore: 92,
+        code: '官网网页端直购',
+        deadline: '2026-12-01',
+        entryType: 'deep',
+        buyUrl: 'https://1password.com/pricing/personal',
+        merchant: '1Password 官网',
+        highlights: '内置 1Password Developer 支持 SSH/Git 签名与 CLI；家庭版 5 人均摊不到 $0.90/月。',
+        agentSteps: [
+          '严格避坑：绝不要在 Apple App Store 或 Google Play 内购（官方明确声明第三方应用商店无促销价）',
+          '直接访问 1password.com/pricing/personal，确认顶部计费切换为「Yearly（按年计费）」',
+          '选择 Individual ($2.99/月) 或 Families 5人版 ($4.49/月)，新用户享 14 天免费试用+首年促销价'
+        ]
+      },
+      {
+        id: 'cloudways',
+        name: 'Cloudways 托管云服务器',
+        category: 'dev',
+        categoryLabel: '开发者与建站',
+        useCase: 'WordPress/Node.js 高并发托管 / 项目上线',
+        origPrice: '$14/月起',
+        dealPrice: '$2.80/月 (前2月)',
+        priceNum: 5.6,
+        discountPct: 80,
+        savingsNum: 200,
+        savingsText: '前2月全单 80% OFF (最高省 $400)',
+        valueTier: 'A+级必入',
+        valueScore: 90,
+        code: 'BFCM802',
+        deadline: '2026-12-04',
+        entryType: 'deep',
+        buyUrl: 'https://www.cloudways.com/en/pricing.php',
+        merchant: 'Cloudways 官方定价',
+        highlights: '支持 DigitalOcean/AWS/GCP，含无限免费迁移，附加组件后续10个月享8折，3天免卡试用。',
+        agentSteps: [
+          '打开 cloudways.com/en/pricing.php 选择 Flexible / Autonomous / Velocity 方案并点击注册',
+          '仅限新账号：在注册表单点击「Got a Promo Code?」填入 BFCM802',
+          '验证邮箱与手机激活 3 天免信用卡试用，确认前 2 个月账单 80% OFF 已绑定'
+        ]
+      },
+      {
+        id: 'norton360',
+        name: 'Norton 360 Deluxe (5设备全家桶)',
+        category: 'security',
+        categoryLabel: '安全与隐私',
+        useCase: '多设备防毒 / 反诈骗 AI / 50GB 云备份',
+        origPrice: '$124.99/年',
+        dealPrice: '$29.99/首年 ($2.50/月)',
+        priceNum: 29.99,
+        discountPct: 76,
+        savingsNum: 95,
+        savingsText: '首年立省 $95 (76% OFF)',
+        valueTier: 'A级推荐',
+        valueScore: 89,
+        code: '自动生效',
+        deadline: '2026-12-01',
+        entryType: 'deep',
+        buyUrl: 'https://us.norton.com/products/norton-360-deluxe',
+        merchant: 'Norton 官网直达',
+        highlights: '覆盖 5 台 PC/Mac/手机，含 VPN + 50GB 云备份 + AI 深度伪造反诈 + 60天退款保证。',
+        agentSteps: [
+          '直接进入 us.norton.com/products/norton-360-deluxe（避开原价页），确认显示 $29.99 first yr',
+          '若仅需单设备基础防护，可切换至 Norton AntiVirus Plus ($19.99/首年 = $1.67/月)',
+          '下单后务必设置次年到期前提醒关闭自动续费，避免次年按 $124.99 原价扣款'
+        ]
+      },
+      {
+        id: 'pictory',
+        name: 'Pictory AI 视频生成 (Professional)',
+        category: 'creator',
+        categoryLabel: '影音与 AI',
+        useCase: '文章/脚本自动转短视频 / 社媒运营',
+        origPrice: '$25+/月',
+        dealPrice: '年付首年 50% OFF',
+        priceNum: 150,
+        discountPct: 50,
+        savingsNum: 150,
+        savingsText: 'Professional 年付立减 50%',
+        valueTier: 'A级推荐',
+        valueScore: 88,
+        code: 'BLACKFRIYAYY50',
+        deadline: '2026-12-07',
+        entryType: 'deep',
+        buyUrl: 'https://pictory.ai/pricing/',
+        merchant: 'Pictory 官方定价',
+        highlights: '一键将博客/脚本/长视频切片成带字幕短视频，适合 X / YouTube Shorts / TikTok 批量起号。',
+        agentSteps: [
+          '访问 pictory.ai/pricing/，先将页面顶部计费开关切换为「Annual（年付）」',
+          '选中 Professional 档位进入结账页面',
+          '在优惠码栏填入 BLACKFRIYAYY50（若提示失效，自动回退尝试 BLACKFRIDAY2026）并验证 50% OFF'
+        ]
+      }
+    ];
+
+    const X_COPIES = [
+      {
+        id: 'x-cn-single',
+        badge: '🔥 中文单条爆款体 · 高转评赞',
+        title: '适合主推置顶（直接甩链接 + Agent Skill 卖点）',
+        content: `2026 黑五别再被满屏返利水文割韭菜了。
+
+我把今年全网真正跌破史低的 13 款硬货（按用途 & 性价比）做成了一个开源 GitHub Page，全部直达官方/Amazon 购买页，无废话：
+
+💻 开发者：JetBrains 全家桶 6 折 (码 BF2026) / Hostinger 48个月 $1.89/月 / Cloudways 前2月 2 折
+🛡️ 安全隐私：NordVPN 78% OFF + 送3月 / Surfshark 88% OFF / 1Password 官网年付避坑价
+🎧 旗舰数码：AirPods Pro 3 $149 (省$100) / MacBook Air M5 $1,199 (省$300) / Sony XM6 $348 / 石头 Saros 20 $989 (狂降$610)
+
+更狠的是：针对那些藏得很深、要切年付/填码/避开 App Store 抽成的商品，我顺手写了个开源 Agent Skill 👇
+让你的 AI Agent 直接加载，自动跳最优购买页 + 填最大折扣码，不用人手动折腾！
+
+仓库 & 网页直达：https://github.com/moose-lab
+建议先收藏/转给需要的朋友，黑五手慢无 ⚡️
+
+#BlackFriday2026 #黑五必买 #AI #AIAgent #独立开发`
+      },
+      {
+        id: 'x-cn-thread',
+        badge: '🧵 中文高转化 Thread 串推 (4条)',
+        title: '适合拆条发布，拉满完读率与书签率',
+        content: `【1/4】2026 黑五买什么最值？
+花了一整晚，把全网实测史低 + 开发者/创作者刚需工具扒了个底朝天，做成了一个开源导航页 + AI 自动省钱 Skill。
+
+不卖课不恰饭，全直达购买页 🧵👇
+在线清单 & 仓库：https://github.com/moose-lab
+
+---
+【2/4】💻 开发者 & 建站（最容易买贵，一定要走深入口）：
+• JetBrains All Products Pack：必须切「个人版+年付」填码 BF2026 立减 40%，还能一次锁 2-3 年价
+• Hostinger：切 48 个月 $1.99/月，结账叠码 COUPONSPAGE 再降到 $1.89/月 + 送首年域名
+• Cloudways：新号填 BFCM802 前 2 个月直接 2 折（最高省 $400）
+
+---
+【3/4】🎧 旗舰数码 & 家居（今年史低真香区）：
+• AirPods Pro 3：$149（原价 $249，直接 6 折）
+• MacBook Air 15" M5 (16G/512G)：$1,199（直降 $300，涨价后最强抄底）
+• Sony WH-1000XM6：$348（官网同步直降 $112）
+• Roborock Saros 20：$989.99（原价 $1599，首次跌破千刀）
+
+---
+【4/4】🤖 懒得手动切周期、找隐藏优惠码？
+仓库里直接附带了 black-friday-deal-navigator Skill！
+把 Skill 喂给你的 AI Agent，直接说「帮我用最低价买 JetBrains / 1Password / NordVPN」，它会自动绕过 App Store 溢价和月付坑，直达最低价结账页等你确认付款。
+
+开源地址（求 Star）：https://github.com/moose-lab`
+      },
+      {
+        id: 'x-en-global',
+        badge: '🌍 英文出海极客版 · 抓全球流量',
+        title: '适合吸引海外开发者、Indie Hackers 与 AI Agent 玩家',
+        content: `I built an open-source Black Friday 2026 tracker + an AI Agent Skill so you don't overpay by clicking the wrong pricing tier.
+
+Top verified deals (direct merchant links, zero fluff):
+• JetBrains IDEs: 40% OFF w/ code BF2026 (Individual Annual)
+• Hostinger: $1.89/mo on 48m plan w/ code COUPONSPAGE
+• AirPods Pro 3: $149 (40% OFF)
+• M5 MacBook Air 15": $1,199 ($300 OFF)
+• Sony WH-1000XM6: $348 ($112 OFF)
+• Roborock Saros 20: $989.99 ($610 OFF)
+
+Best part: Load the included \`black-friday-deal-navigator\` skill into your AI agent to automatically pick the cheapest billing cycle, dodge App Store markups (like 1Password), and apply hidden promo codes at checkout.
+
+GitHub Page + Skill: https://github.com/moose-lab
+
+Bookmark this before deals expire on Nov 30 – Dec 2 🔖
+
+#BlackFriday2026 #AIAgents #IndieHackers #DevTools`
+      }
+    ];
+
+    // State
+    let state = {
+      activeTab: 'deals',
+      selectedCategory: 'all',
+      entryFilter: 'all',
+      sortBy: 'value',
+      searchQuery: '',
+      savedOnly: false,
+      expandedPlaybooks: new Set(),
+      bookmarks: new Set()
+    };
+
+    try {
+      const saved = localStorage.getItem('moose_bf2026_bookmarks');
+      if (saved) {
+        JSON.parse(saved).forEach(id => state.bookmarks.add(id));
+      }
+    } catch (e) {}
+
+    function saveBookmarks() {
+      try {
+        localStorage.setItem('moose_bf2026_bookmarks', JSON.stringify(Array.from(state.bookmarks)));
+      } catch (e) {}
+    }
+
+    let toastTimer = null;
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-msg');
+      if (!toast || !toastMsg) return;
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'translate-y-4');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-4');
+        toast.classList.remove('opacity-100', 'translate-y-0');
+      }, 2200);
+    }
+
+    function copyText(text, successMsg) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast(successMsg);
+        }).catch(() => {
+          fallbackCopy(text, successMsg);
+        });
+      } else {
+        fallbackCopy(text, successMsg);
+      }
+    }
+
+    function fallbackCopy(text, successMsg) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast(successMsg);
+      } catch (e) {
+        showToast('复制失败，请手动选中复制');
+      }
+      document.body.removeChild(ta);
+    }
+
+    function getFilteredDeals() {
+      let list = DEALS.filter(d => {
+        if (state.selectedCategory !== 'all' && d.category !== state.selectedCategory) return false;
+        if (state.entryFilter !== 'all' && d.entryType !== state.entryFilter) return false;
+        if (state.savedOnly && !state.bookmarks.has(d.id)) return false;
+        if (state.searchQuery.trim()) {
+          const q = state.searchQuery.trim().toLowerCase();
+          const hay = `${d.name} ${d.useCase} ${d.categoryLabel} ${d.code} ${d.highlights}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+
+      list.sort((a, b) => {
+        if (state.sortBy === 'discount') return b.discountPct - a.discountPct;
+        if (state.sortBy === 'savings') return b.savingsNum - a.savingsNum;
+        if (state.sortBy === 'price_asc') return a.priceNum - b.priceNum;
+        return b.valueScore - a.valueScore;
+      });
+      return list;
+    }
+
+    function renderTabs() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        const active = btn.dataset.tab === state.activeTab;
+        btn.className = active
+          ? 'tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition bg-amber-400 text-zinc-950 shadow-lg shadow-amber-500/20'
+          : 'tab-btn shrink-0 rounded-xl px-4 py-2.5 text-sm font-semibold transition bg-zinc-900/80 text-zinc-300 border border-zinc-800 hover:border-zinc-600 hover:text-white';
+      });
+      document.querySelectorAll('.tab-panel').forEach(panel => {
+        panel.classList.toggle('hidden', panel.id !== `view-${state.activeTab}`);
+      });
+    }
+
+    function renderFilters() {
+      document.querySelectorAll('.cat-pill').forEach(btn => {
+        const active = btn.dataset.cat === state.selectedCategory;
+        btn.className = active
+          ? 'cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition bg-amber-500/20 text-amber-300 ring-1 ring-amber-500/50'
+          : 'cat-pill rounded-lg px-3 py-1.5 text-xs font-semibold transition bg-zinc-950 text-zinc-400 border border-zinc-800 hover:text-zinc-200';
+      });
+      document.querySelectorAll('.entry-pill').forEach(btn => {
+        const active = btn.dataset.entry === state.entryFilter;
+        btn.className = active
+          ? 'entry-pill rounded-md px-2.5 py-1 text-[11px] font-semibold transition bg-indigo-500/20 text-indigo-300 ring-1 ring-indigo-500/50'
+          : 'entry-pill rounded-md px-2.5 py-1 text-[11px] font-medium transition bg-zinc-950 text-zinc-400 border border-zinc-800 hover:text-zinc-200';
+      });
+      const savedBtn = document.getElementById('toggle-saved-only');
+      if (savedBtn) {
+        savedBtn.className = state.savedOnly
+          ? 'rounded-md border border-amber-500 bg-amber-500/20 px-2.5 py-1 text-[11px] font-semibold text-amber-300 transition'
+          : 'rounded-md border border-zinc-700/80 bg-zinc-950 px-2.5 py-1 text-[11px] font-medium text-zinc-300 hover:border-amber-500/60 transition';
+      }
+      const bmCount = document.getElementById('bookmark-count');
+      if (bmCount) bmCount.textContent = String(state.bookmarks.size);
+    }
+
+    function renderDeals() {
+      const grid = document.getElementById('deals-grid');
+      const countEl = document.getElementById('result-count');
+      if (!grid) return;
+
+      const list = getFilteredDeals();
+      if (countEl) countEl.textContent = `共显示 ${list.length} 款产品`;
+
+      if (list.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full rounded-2xl border border-dashed border-zinc-800 bg-zinc-900/30 p-10 text-center">
+            <p class="text-sm font-semibold text-zinc-300">没有找到符合条件的黑五商品</p>
+            <p class="mt-1 text-xs text-zinc-500">试试切换用途分类、清空搜索词，或取消「仅看已收藏」筛选。</p>
+            <button type="button" id="reset-filters-btn" class="mt-4 rounded-lg bg-amber-400 px-4 py-2 text-xs font-bold text-zinc-950 hover:bg-amber-300 transition">重置全部筛选</button>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = list.map(d => {
+        const isSaved = state.bookmarks.has(d.id);
+        const isExpanded = state.expandedPlaybooks.has(d.id);
+        const tierColor = d.valueTier.startsWith('S')
+          ? 'bg-amber-500/15 text-amber-300 ring-amber-500/40'
+          : 'bg-sky-500/15 text-sky-300 ring-sky-500/40';
+        const hasRealCode = d.code && !['自动生效', '官网网页端直购', '官网/授权直降'].includes(d.code);
+
+        return `
+          <article class="glass-card flex flex-col justify-between rounded-2xl p-5 transition duration-200">
+            <div>
+              <!-- Card Top Badges -->
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex flex-wrap items-center gap-1.5">
+                  <span class="rounded-md px-2 py-0.5 text-[11px] font-bold ring-1 ${tierColor}">${d.valueTier} · ${d.valueScore}分</span>
+                  <span class="rounded-md bg-emerald-500/15 px-2 py-0.5 text-[11px] font-bold text-emerald-300 ring-1 ring-emerald-500/30">-${d.discountPct}%</span>
+                  ${d.entryType === 'deep'
+                    ? '<span class="rounded-md bg-indigo-500/15 px-2 py-0.5 text-[11px] font-semibold text-indigo-300 ring-1 ring-indigo-500/30">🤖 深入口省钱</span>'
+                    : '<span class="rounded-md bg-zinc-800 px-2 py-0.5 text-[11px] font-medium text-zinc-300">⚡ 一键直达</span>'}
+                </div>
+                <button type="button" data-action="bookmark" data-id="${d.id}" aria-label="收藏 ${d.name}" class="rounded-lg p-1.5 transition ${isSaved ? 'bg-amber-500/20 text-amber-400' : 'text-zinc-500 hover:bg-zinc-800 hover:text-zinc-200'}">
+                  <svg class="h-4 w-4" fill="${isSaved ? 'currentColor' : 'none'}" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Title & Use Case -->
+              <h3 class="mt-3 text-base sm:text-lg font-bold text-white leading-snug">${d.name}</h3>
+              <p class="mt-1 text-xs font-medium text-amber-300/90">${d.categoryLabel} · ${d.useCase}</p>
+
+              <!-- Price Box -->
+              <div class="mt-4 rounded-xl border border-zinc-800/90 bg-zinc-950/80 p-3.5">
+                <div class="flex items-baseline justify-between gap-2">
+                  <div>
+                    <span class="text-xl font-extrabold text-white">${d.dealPrice}</span>
+                    <span class="ml-2 text-xs text-zinc-500 line-through">${d.origPrice}</span>
+                  </div>
+                  <span class="text-[11px] text-zinc-500">截止 ${d.deadline}</span>
+                </div>
+                <div class="mt-1.5 text-xs font-semibold text-emerald-400">${d.savingsText}</div>
+              </div>
+
+              <!-- Highlights -->
+              <p class="mt-3 text-xs text-zinc-400 leading-relaxed">${d.highlights}</p>
+
+              <!-- Promo Code Row -->
+              ${d.code ? `
+                <div class="mt-3 flex items-center justify-between gap-2 rounded-lg border border-zinc-800 bg-zinc-900/80 px-3 py-2">
+                  <div class="text-xs text-zinc-400">
+                    优惠方式：<span class="font-mono font-bold text-amber-300">${d.code}</span>
+                  </div>
+                  ${hasRealCode ? `
+                    <button type="button" data-action="copy-code" data-code="${d.code}" class="rounded bg-amber-500/20 px-2 py-0.5 text-[11px] font-semibold text-amber-300 hover:bg-amber-500/30 transition">
+                      复制码
+                    </button>
+                  ` : ''}
+                </div>
+              ` : ''}
+
+              <!-- Deep Entry Agent Playbook Collapsible -->
+              ${d.entryType === 'deep' ? `
+                <div class="mt-3 rounded-xl border border-indigo-500/25 bg-indigo-950/25">
+                  <button type="button" data-action="toggle-playbook" data-id="${d.id}" class="flex w-full items-center justify-between px-3 py-2 text-left text-xs font-semibold text-indigo-300 hover:text-indigo-200">
+                    <span>🤖 Agent 自动省钱路径 (${d.agentSteps.length}步)</span>
+                    <span>${isExpanded ? '收起 ▲' : '展开 ▼'}</span>
+                  </button>
+                  ${isExpanded ? `
+                    <div class="border-t border-indigo-500/20 px-3 pb-3 pt-2 space-y-2">
+                      <ol class="list-decimal pl-4 space-y-1 text-[11px] text-zinc-300 leading-relaxed">
+                        ${d.agentSteps.map(s => `<li>${s}</li>`).join('')}
+                      </ol>
+                      <button type="button" data-action="copy-agent-cmd" data-id="${d.id}" class="w-full rounded-lg bg-indigo-500/25 py-1.5 text-[11px] font-semibold text-indigo-200 hover:bg-indigo-500/40 transition">
+                        📋 复制给我的 AI Agent 自动购买指令
+                      </button>
+                    </div>
+                  ` : ''}
+                </div>
+              ` : ''}
+            </div>
+
+            <!-- Action Footer -->
+            <div class="mt-4 pt-3 border-t border-zinc-800/70 flex items-center gap-2">
+              <a href="${d.buyUrl}" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 px-4 py-2.5 text-xs font-bold text-zinc-950 hover:from-amber-300 hover:to-orange-400 transition shadow-md shadow-amber-500/15">
+                <span>直达 ${d.merchant}</span>
+                <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function renderMatrix() {
+      const tbody = document.getElementById('matrix-tbody');
+      if (!tbody) return;
+      const sorted = [...DEALS].sort((a, b) => b.valueScore - a.valueScore);
+      tbody.innerHTML = sorted.map(d => `
+        <tr class="hover:bg-zinc-900/80 transition">
+          <td class="py-3.5 px-4">
+            <div class="font-bold text-white">${d.name}</div>
+            <div class="text-[11px] text-zinc-400 mt-0.5">${d.categoryLabel} · ${d.useCase}</div>
+          </td>
+          <td class="py-3.5 px-3 text-zinc-500 line-through whitespace-nowrap">${d.origPrice}</td>
+          <td class="py-3.5 px-3 font-bold text-amber-300 whitespace-nowrap">${d.dealPrice}</td>
+          <td class="py-3.5 px-3 whitespace-nowrap">
+            <span class="inline-block rounded bg-emerald-500/15 px-1.5 py-0.5 text-[11px] font-bold text-emerald-300">-${d.discountPct}%</span>
+            ${d.code ? `<span class="ml-1 font-mono text-[11px] text-zinc-300">${d.code}</span>` : ''}
+          </td>
+          <td class="py-3.5 px-3 whitespace-nowrap">
+            ${d.entryType === 'deep'
+              ? '<span class="rounded bg-indigo-500/15 px-2 py-0.5 text-[11px] font-semibold text-indigo-300">🤖 Agent 深入口</span>'
+              : '<span class="rounded bg-zinc-800 px-2 py-0.5 text-[11px] text-zinc-300">⚡ 一键直达</span>'}
+          </td>
+          <td class="py-3.5 px-3 whitespace-nowrap font-bold text-white">${d.valueTier} (${d.valueScore})</td>
+          <td class="py-3.5 px-4 text-right whitespace-nowrap">
+            <a href="${d.buyUrl}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-lg bg-amber-400/15 px-2.5 py-1 text-xs font-semibold text-amber-300 ring-1 ring-amber-500/30 hover:bg-amber-400 hover:text-zinc-950 transition">
+              直达购买 ↗
+            </a>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function renderSkillPlaybooks() {
+      const container = document.getElementById('skill-playbooks');
+      if (!container) return;
+      const deepDeals = DEALS.filter(d => d.entryType === 'deep');
+      container.innerHTML = deepDeals.map(d => `
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-4 flex flex-col justify-between gap-3">
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <h4 class="font-bold text-sm text-white">${d.name}</h4>
+              <span class="rounded bg-emerald-500/15 px-2 py-0.5 text-[11px] font-bold text-emerald-300">-${d.discountPct}%</span>
+            </div>
+            <div class="mt-1 flex flex-wrap items-center gap-2 text-[11px] text-zinc-400">
+              <span>入口：<a href="${d.buyUrl}" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline">${d.buyUrl.replace('https://', '')}</a></span>
+              ${d.code ? `<span>· 码：<code class="text-amber-300 font-bold">${d.code}</code></span>` : ''}
+            </div>
+            <ol class="mt-3 list-decimal pl-4 space-y-1 text-xs text-zinc-300 leading-relaxed">
+              ${d.agentSteps.map(s => `<li>${s}</li>`).join('')}
+            </ol>
+          </div>
+          <div class="flex items-center gap-2 pt-2 border-t border-zinc-800/80">
+            <button type="button" data-action="copy-agent-cmd" data-id="${d.id}" class="flex-1 rounded-lg bg-indigo-500/20 px-3 py-1.5 text-xs font-semibold text-indigo-200 hover:bg-indigo-500/35 transition">
+              📋 复制 Agent 自动买指令
+            </button>
+            <a href="${d.buyUrl}" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-zinc-700 px-3 py-1.5 text-xs font-semibold text-zinc-200 hover:border-amber-400 hover:text-amber-300 transition">
+              打开页面 ↗
+            </a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderXCopy() {
+      const container = document.getElementById('xcopy-container');
+      if (!container) return;
+      container.innerHTML = X_COPIES.map(item => `
+        <div class="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5 flex flex-col justify-between gap-4">
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <span class="rounded-full bg-amber-500/15 px-2.5 py-0.5 text-[11px] font-bold text-amber-300 ring-1 ring-amber-500/30">${item.badge}</span>
+              <span class="text-[11px] text-zinc-500">${item.content.length} 字</span>
+            </div>
+            <h3 class="mt-2.5 text-sm font-bold text-white">${item.title}</h3>
+            <pre class="mt-3 whitespace-pre-wrap rounded-xl border border-zinc-800 bg-zinc-950 p-3.5 text-xs text-zinc-200 font-sans leading-relaxed max-h-80 overflow-y-auto">${item.content}</pre>
+          </div>
+          <button type="button" data-action="copy-xcopy" data-id="${item.id}" class="w-full rounded-xl bg-zinc-100 py-2.5 text-xs font-bold text-zinc-950 hover:bg-amber-400 transition">
+            📋 一键复制此文案去 𝕏 发布
+          </button>
+        </div>
+      `).join('');
+    }
+
+    function renderAll() {
+      renderTabs();
+      renderFilters();
+      renderDeals();
+      renderMatrix();
+      renderSkillPlaybooks();
+      renderXCopy();
+    }
+
+    // Event Listeners
+    document.addEventListener('click', (e) => {
+      const tabBtn = e.target.closest('.tab-btn');
+      if (tabBtn) {
+        state.activeTab = tabBtn.dataset.tab;
+        renderTabs();
+        return;
+      }
+
+      const catBtn = e.target.closest('.cat-pill');
+      if (catBtn) {
+        state.selectedCategory = catBtn.dataset.cat;
+        renderFilters();
+        renderDeals();
+        return;
+      }
+
+      const entryBtn = e.target.closest('.entry-pill');
+      if (entryBtn) {
+        state.entryFilter = entryBtn.dataset.entry;
+        renderFilters();
+        renderDeals();
+        return;
+      }
+
+      if (e.target.closest('#toggle-saved-only') || e.target.closest('#header-bookmark-btn')) {
+        state.activeTab = 'deals';
+        state.savedOnly = !state.savedOnly;
+        renderTabs();
+        renderFilters();
+        renderDeals();
+        return;
+      }
+
+      if (e.target.closest('#reset-filters-btn')) {
+        state.selectedCategory = 'all';
+        state.entryFilter = 'all';
+        state.savedOnly = false;
+        state.searchQuery = '';
+        const si = document.getElementById('search-input');
+        if (si) si.value = '';
+        renderFilters();
+        renderDeals();
+        return;
+      }
+
+      const actionBtn = e.target.closest('[data-action]');
+      if (actionBtn) {
+        const action = actionBtn.dataset.action;
+        const id = actionBtn.dataset.id;
+
+        if (action === 'bookmark') {
+          if (state.bookmarks.has(id)) {
+            state.bookmarks.delete(id);
+            showToast('已从收藏清单移除');
+          } else {
+            state.bookmarks.add(id);
+            showToast('已加入我的黑五收藏清单');
+          }
+          saveBookmarks();
+          renderFilters();
+          renderDeals();
+          return;
+        }
+
+        if (action === 'copy-code') {
+          copyText(actionBtn.dataset.code, `已复制优惠码：${actionBtn.dataset.code}`);
+          return;
+        }
+
+        if (action === 'toggle-playbook') {
+          if (state.expandedPlaybooks.has(id)) {
+            state.expandedPlaybooks.delete(id);
+          } else {
+            state.expandedPlaybooks.add(id);
+          }
+          renderDeals();
+          return;
+        }
+
+        if (action === 'copy-agent-cmd') {
+          const deal = DEALS.find(x => x.id === id);
+          if (deal) {
+            const prompt = `请使用 black-friday-deal-navigator Skill，帮我直接跳转到 ${deal.name} 的黑五最优购买页 (${deal.buyUrl})，按照最低价策略自动切换计费周期并应用优惠码${deal.code ? ` (${deal.code})` : ''}，核对折后价为 ${deal.dealPrice} 后停在最终付款确认页面等我支付。`;
+            copyText(prompt, `已复制 ${deal.name} 的 Agent 自动购买指令`);
+          }
+          return;
+        }
+
+        if (action === 'copy-xcopy') {
+          const item = X_COPIES.find(x => x.id === id);
+          if (item) {
+            copyText(item.content, '已复制 X 文案，直接粘贴发布即可！');
+          }
+          return;
+        }
+      }
+
+      if (e.target.closest('#copy-skill-install')) {
+        const cmd = `# 从 moose-lab 仓库加载黑五自动省钱 Agent Skill\ngit clone https://github.com/moose-lab/black-friday-2026.git\n# 将 skills/black-friday-deal-navigator/ 目录导入你的 AI Agent (Gemini / Claude / Cursor / OpenClaw)`;
+        copyText(cmd, '已复制 Skill 加载指令');
+        return;
+      }
+
+      if (e.target.closest('#copy-skill-prompt')) {
+        const p = '加载 black-friday-deal-navigator，帮我用 2026 黑五最低价购买 JetBrains All Products Pack（切换个人年付并用码 BF2026），停在结账确认页等我付款。';
+        copyText(p, '已复制 Agent 测试指令');
+        return;
+      }
+
+      if (e.target.closest('#export-md-btn')) {
+        const header = '| 产品 | 用途 | 常规价 | 黑五价 | 优惠码/方式 | 性价比 | 直达购买页 |\n| --- | --- | --- | --- | --- | --- | --- |';
+        const rows = [...DEALS].sort((a, b) => b.valueScore - a.valueScore).map(d =>
+          `| ${d.name} | ${d.useCase} | ${d.origPrice} | **${d.dealPrice}** (-${d.discountPct}%) | ${d.code || '直降'} | ${d.valueTier} | [直达购买](${d.buyUrl}) |`
+        );
+        copyText([header, ...rows].join('\n'), '已复制 Markdown 性价比横评表');
+      }
+    });
+
+    document.getElementById('search-input')?.addEventListener('input', (e) => {
+      state.searchQuery = e.target.value;
+      renderDeals();
+    });
+
+    document.getElementById('sort-select')?.addEventListener('change', (e) => {
+      state.sortBy = e.target.value;
+      renderDeals();
+    });
+
+    renderAll();
+  </script>
+</body>
+</html>
